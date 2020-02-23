@@ -1,15 +1,24 @@
-h1{font-size: 100px;
-text-align: center;
-margin-top: 250px;
-color:red;
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 250px;
+  color: red;
 }
 
-img {width:100%;}
-html,body{height:100%;
-maergin:0;
-padding:0;
+img {
+  width: 100%;
 }
-body{
-    background: url(../img/2020-2.jpg) no-repeat ;
-    background-size: cover;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/2020-2.jpg) no-repeat #0000ff;
+  background-size: cover;
+}
+.img2 {
+  width: 100px;
+  height: auto;
 }
