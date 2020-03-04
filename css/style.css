@@ -1,45 +1,349 @@
-body {
-  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  color:#000;
-  }
+@charset "UTF-8";
 
-.yougo-m{
-  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 10px;
-}
-.yougo-b{
-  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  font-size:  18px;
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
 
-}
-
-
-
-
-h1 {
-  font-size: 100px;
-  text-align: center;
-  margin-top: 250px;
-  color: red;
-}
-
-img {
-  width: 100%;
-}
 html,
-body {
-  height: 100%;
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
+
 body {
-  background: url(../img/2020-2.jpg) no-repeat;
-  background-size: cover;
+  line-height: 1;
 }
-.img2 {
-  width: 100px;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* /リセット*/
+
+div,
+dl,
+dt,
+dd,
+p,
+ul,
+li,
+ol,
+header,
+nav,
+footer,
+section,
+article,
+address {
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+/*共通*/
+html {
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    color:#000;
+}
+
+.motherwrap{
+  width:864px ;
+  margin:0 auto;
+  border:solid 1px gold;
+
+}
+/*一覧ページ*/
+
+header{
+  margin-top: 50px;
+}
+.header-logo{
+  width:236px;
+}
+.header-logo img{
+  width: 100%;
+  height:auto;
+}
+.header-h1{
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 175px;
+}
+.header-p1{
+  width:170px;
+  margin: 30px auto 0 auto;
+}
+.header-p1 img{
+  width:100%;
   height: auto;
 }
+.header-p2{
+  margin-top: 34px;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header-p2 span {
+  display: inline-block;
+  width: 100%;
+}
+.header_nav{
+  margin-top: 60px;
+  border-top: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+.header_nav ul{
+  list-style-type: none;
+  margin: 0 auto;
+  width:720px;
+  display: flex;
+}
+.header_nav ul li{
+  width:144px;
+}
+.header_nav ul li a{
+  display: block;
+  padding: 22px 0 22px 32px;
+  text-decoration: none;
+  color:#000;
+  background-image:url("../img/nav_arrow.svg");
+  background-repeat: no-repeat;
+  background-size:10px 5px;
+  background-position:109px 28px;
+}
+.main-list{
+  margin-top: 42px;
+}
+.main-list ul {
+  list-style-type: none;
+  width:776px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-list__item{
+  width: 360px;
+  margin-bottom: 48px;
+}
+.main-list__item__photo{
+  width: 360px;
+  height: 360px;
+  position: relative;
+}
+.main-list__item__photo-1{
+  width: 100%;
+  height: auto;
+}
+.main-list__item__number{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 77px;
+  height:77px;
+  z-index: 10;
+}
+.main-list__item--h2{
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+.main-list__item--p1{
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+}
+.main-list__item__photo-number{
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.main-list__item--p2{
+  margin-top: 2px;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: center;
+}
+
+footer{
+  height:170px;
+  padding-top:60px;
+}
+.footer-logo{
+  width: 300px;
+  margin: 0 auto;
+}
+.footer-logo img{
+  width:100%;
+  height:auto;
+}
+
+
