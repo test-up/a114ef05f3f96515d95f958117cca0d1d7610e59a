@@ -13,20 +13,36 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="(min-width: 679px)" >
 <!-- Javascript -->
 
-<script src="js/jquery-2.0.3.js"></script>
-<script type="text/javascript">
-    $(function () {
-        var offsetY = -10;
-        var time = 500;
-        $('a[href^=#]').click(function () {
-            var target = $(this.hash);
-            if (!target.length) return;
-            var targetY = target.offset().top + offsetY;
-            $('html,body').animate({ scrollTop: targetY }, time, 'swing');
-            return false;
-        });
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+    $(function(){
+      $('a[href^="#"]').click(function() {
+        var speed = 400; 
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+      });
     });
 </script>
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+    window.onscroll = function (){
+      var myFade = document.getElementsByClassName("fadein");
+      for(var i = 0; i < myFade.length; i++){
+        var targetElement = myFade[i].getBoundingClientRect(); 
+        var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+        var windowHeight = window.innerHeight;  
+        if (scroll > scroll + targetElement.top - windowHeight + 200){
+          myFade[i].style.opacity = "1";
+          myFade[i].style.transform = "translateY(0)";
+        }
+      }
+    }
+}, false);
+</script>
+</head>
 
 <div class="motherwrap">
     <header>
@@ -56,7 +72,7 @@
 
     <section class="main-list">
         <ul>
-            <li class="main-list__item">
+            <li class="main-list__item fadein">
                 <figure class="main-list__item__photo">
                     <img src="img/kandratsenkava.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
                     <img src="img/001.svg" alt="001" class="main-list__item__number">
@@ -65,7 +81,7 @@
                 <p class="main-list__item--p1">経営学部経営学科</p>
                 <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
             </li>
-            <li class="main-list__item">
+            <li class="main-list__item fadein" id="anchor_1">
                 <figure class="main-list__item__photo">
                     <img src="img/morihara.jpg" alt="森原佳大" class="main-list__item__photo-1">
                     <img src="img/002.svg" alt="002" class="main-list__item__number"> 
@@ -74,7 +90,7 @@
                 <p class="main-list__item--p1">経営学部経済学科</p>
                 <p class="main-list__item--p2">森原佳大</p>
             </li>
-            <li class="main-list__item">
+            <li class="main-list__item fadein" id="anchor_2">
                 <figure class="main-list__item__photo">
                     <img src="img/kandratsenkava.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
                     <img src="img/003.svg" alt="003" class="main-list__item__number">
@@ -83,7 +99,7 @@
                 <p class="main-list__item--p1">経営学部経営学科</p>
                 <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
             </li>
-            <li class="main-list__item">
+            <li class="main-list__item fadein" id="anchor_3">
                 <figure class="main-list__item__photo">
                     <img src="img/morihara.jpg" alt="森原佳大" class="main-list__item__photo-1">
                     <img src="img/004.svg" alt="004" class="main-list__item__number"> 
@@ -92,7 +108,7 @@
                 <p class="main-list__item--p1">経営学部経済学科</p>
                 <p class="main-list__item--p2">森原佳大</p>
             </li>
-            <li class="main-list__item">
+            <li class="main-list__item fadein" id="anchor_4">
                 <figure class="main-list__item__photo">
                     <img src="img/kandratsenkava.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
                     <img src="img/005.svg" alt="005" class="main-list__item__number">
@@ -101,7 +117,7 @@
                 <p class="main-list__item--p1">経営学部経営学科</p>
                 <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
             </li>
-            <li class="main-list__item">
+            <li class="main-list__item fadein" id="anchor_5">
                 <figure class="main-list__item__photo">
                     <img src="img/morihara.jpg" alt="森原佳大" class="main-list__item__photo-1">
                     <img src="img/006.svg" alt="006" class="main-list__item__number"> 

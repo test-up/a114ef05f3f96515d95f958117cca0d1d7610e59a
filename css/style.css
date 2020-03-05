@@ -207,6 +207,12 @@ html {
   border:solid 1px gold;
 
 }
+
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
 /*一覧ページ*/
 
 header{
