@@ -210,67 +210,142 @@ html {
 
 
 /*一覧ページ*/
+.motherwrap{
+  padding: 0 4rem;
+}
 
 header{
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 .header-logo{
-  width:236px;
+  width:23.6rem;
 }
 .header-logo img{
   width: 100%;
   height:auto;
 }
 .header-h1{
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
   text-align: center;
-  margin-top: 175px;
+  margin-top: 17.5rem;
 }
 .header-p1{
   width:170px;
-  margin: 30px auto 0 auto;
+  margin: 2.8rem auto 0 auto;
 }
 .header-p1 img{
   width:100%;
   height: auto;
 }
 .header-p2{
-  margin-top: 34px;
-  font-size: 14px;
-  line-height: 2;
+  margin-top: 2.8rem;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
   font-weight: 500;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
 }
 .header-p2 span {
-  display: inline-block;
-  width: 100%;
 }
 .header_nav{
-  margin-top: 60px;
+  margin-top: 5rem;
   border-top: solid 1px #000;
   border-bottom: solid 1px #000;
 }
 .header_nav ul{
   list-style-type: none;
-  margin: 0 auto;
-  width:720px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .header_nav ul li{
-  width:144px;
+  width:33.3%;
+  font-size:1.4rem;
+  line-height: 1;
+  font-weight: 500;
 }
 .header_nav ul li a{
   display: block;
-  padding: 22px 0 22px 32px;
+  padding: 2rem 0 2rem 4.5rem;
   text-decoration: none;
   color:#000;
   background-image:url("../img/nav_arrow.svg");
   background-repeat: no-repeat;
-  background-size:10px 5px;
-  background-position:109px 28px;
+  background-size:1rem 0.5rem;
+  background-position:11.8rem 2.5rem;
+}
+
+/*メインリスト*/
+.main-list{
+  margin-top: 4rem;
+}
+.main-list ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-list__item{
+  width: 24rem;
+  margin-bottom: 4.2rem;
+}
+.main-list__item__photo{
+  width: 24rem;
+  height: 24rem;
+  position: relative;
+}
+.main-list__item__photo-1{
+  width: 100%;
+  height: auto;
+}
+.main-list__item__number{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 5.2rem;
+  height:5.2rem;
+  z-index: 10;
+}
+.main-list__item--h2{
+  margin-top: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+.main-list__item--p1{
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+}
+.main-list__item__photo-number{
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.main-list__item--p2{
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: center;
+}
+
+footer{
+  height:14rem;
+  padding-top:5rem;
+}
+.footer-logo{
+  width: 24rem;
+  margin: 0 auto;
+}
+.footer-logo img{
+  width:100%;
+  height:auto;
 }
