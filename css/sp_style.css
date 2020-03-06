@@ -198,10 +198,11 @@ html {
   font-size: 1.67vw;
   font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
   color:#000;
+  font-weight: 500;
 }
 .fadein {
   opacity : 0;
-  transform: translateY(20px);
+  transform: translateY(2rem);
   transition: all 1s;
 }
 .pc {
@@ -225,13 +226,13 @@ header{
   height:auto;
 }
 .header-h1{
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 900;
   text-align: center;
   margin-top: 17.5rem;
 }
 .header-p1{
-  width:170px;
+  width:17.1rem;
   margin: 2.8rem auto 0 auto;
 }
 .header-p1 img{
@@ -290,6 +291,10 @@ header{
   width: 24rem;
   margin-bottom: 4.2rem;
 }
+.main-list__item a{
+  color:#000;
+  text-decoration: none;
+}
 .main-list__item__photo{
   width: 24rem;
   height: 24rem;
@@ -323,8 +328,8 @@ header{
   text-align: center;
 }
 .main-list__item__photo-number{
-  width: 77px;
-  height: 77px;
+  width: 5.3rem;
+  height: 5.3rem;
   position: absolute;
   top:0;
   left:0;
@@ -349,3 +354,5 @@ footer{
   width:100%;
   height:auto;
 }
+
+/*個別ページ*/

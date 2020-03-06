@@ -199,13 +199,12 @@ address {
 html {
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
     color:#000;
+    font-weight: 500;
 }
 
 .motherwrap{
   width:864px ;
   margin:0 auto;
-  border:solid 1px gold;
-
 }
 
 .fadein {
@@ -213,6 +212,8 @@ html {
   transform: translateY(20px);
   transition: all 1s;
 }
+
+
 /*一覧ページ*/
 
 header{
@@ -293,6 +294,10 @@ header{
 .main-list__item{
   width: 360px;
   margin-bottom: 48px;
+}
+.main-list__item a{
+  color:#000;
+  text-decoration: none;
 }
 .main-list__item__photo{
   width: 360px;
