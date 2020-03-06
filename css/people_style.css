@@ -259,6 +259,7 @@ header{
   margin: 15px auto 0 auto;
   font-size:18px;
   line-height: 27px;
+  text-align: justify;
 }
 
 .people-head{
