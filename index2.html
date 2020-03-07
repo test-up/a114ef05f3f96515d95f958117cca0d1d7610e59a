@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta charset="UTF-8">
+<title>学生インタビュー　挑戦する横国の学生たち - 横浜国立大学</title>
+<meta name="description" content="学業だけでなく、学内外のさまざまな活動にも熱心に取り組む横国の学生たち。そのユニークな活動とチャレンジ精神の源に迫るインタビューコーナーです。">
+<meta name="keywords" content="横浜国立大学,横国,学生,インタビュー">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="">
+<!-- css -->
+<link href="css/sp_style.css" rel="stylesheet" type="text/css" media="(max-width: 678px)" >
+<link href="css/style.css" rel="stylesheet" type="text/css" media="(min-width: 679px)" >
+<!-- Javascript -->
+
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script>
+    $(function(){
+      $('a[href^="#"]').click(function() {
+        var speed = 400; 
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+      });
+    });
+</script>
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+    window.onscroll = function (){
+      var myFade = document.getElementsByClassName("fadein");
+      for(var i = 0; i < myFade.length; i++){
+        var targetElement = myFade[i].getBoundingClientRect(); 
+        var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+        var windowHeight = window.innerHeight;  
+        if (scroll > scroll + targetElement.top - windowHeight + 200){
+          myFade[i].style.opacity = "1";
+          myFade[i].style.transform = "translateY(0)";
+        }
+      }
+    }
+}, false);
+</script>
+</head>
+
+<div class="motherwrap">
+    <header>
+        <p class="header-logo">
+            <img src="img/logo.svg" alt="YNU横浜国立大学">
+        </p>
+        <h1 class="header-h1">挑戦する横国の学生たち</h1>
+        <p class="header-p1">
+            <img src="img/venturespirit.svg" alt="VENTURE SPIRIT">
+        </p>
+        <p class="header-p2">
+        <span>学業だけでなく、学内外のさまざまな活動にも</span>
+        <span>熱心に取り組む横国の学生たち。</span>
+        <span>そのユニークな活動とチャレンジ精神の源に</span>
+        <span>迫るインタビューコーナーです。</span>
+        </p>
+
+        <nav class="header_nav">
+            <ul>
+                <li><a href="#anchor_education">教育学部</a></li>
+                <li><a href="#anchor_economics">経済学部</a></li>
+                <li><a href="#anchor_business_administration">経営学部</a></li>
+                <li><a href="#anchor_engineering_science">理工学部</a></li>
+                <li><a href="#anchor_urban_sciences">都市科学部</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-list">
+        <ul>
+            <li class="main-list__item" id="anchor_business_administration">
+              <a href="001.html">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/business-administration/yadviga/top.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
+                    <img src="img/number/001.svg" alt="001" class="main-list__item__number">
+                </figure>
+                <h2 class="main-list__item--h2">アニメに惹かれて東欧から日本へ。<br>寮友と過ごす日々で、世界は広がっていく。</h2>
+                <p class="main-list__item--p1">経営学部経営学科</p>
+                <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
+              </a>
+            </li>
+            <li class="main-list__item" id="anchor_economics">
+              <a href="002.html">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/economics/morihara/top.jpg" alt="森原佳大" class="main-list__item__photo-1">
+                    <img src="img/number/002.svg" alt="002" class="main-list__item__number"> 
+                </figure>
+                <h2 class="main-list__item--h2">日常生活のサポートから思い出づくりまで、<br>「105」が目指す留学生支援のかたち</h2>
+                <p class="main-list__item--p1">経済学部経済学科</p>
+                <p class="main-list__item--p2">森原佳大</p>
+              </a>
+            </li>
+            <li class="main-list__item fadein" id="anchor_education">
+              <a href="">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/business-administration/yadviga/top.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
+                    <img src="img/number/003.svg" alt="003" class="main-list__item__number">
+                </figure>
+                <h2 class="main-list__item--h2">アニメに惹かれて東欧から日本へ。<br>寮友と過ごす日々で、世界は広がっていく。</h2>
+                <p class="main-list__item--p1">経営学部経営学科</p>
+                <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
+              </a>
+            </li>
+            <li class="main-list__item fadein" id="anchor_engineering_science">
+              <a href="">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/economics/morihara/top.jpg" alt="森原佳大" class="main-list__item__photo-1">
+                    <img src="img/number/004.svg" alt="004" class="main-list__item__number"> 
+                </figure>
+                <h2 class="main-list__item--h2">日常生活のサポートから思い出づくりまで、<br>「105」が目指す留学生支援のかたち</h2>
+                <p class="main-list__item--p1">経営学部経済学科</p>
+                <p class="main-list__item--p2">森原佳大</p>
+              </a>
+            </li>
+            <li class="main-list__item fadein" id="anchor_4">
+              <a href="">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/business-administration/yadviga/top.jpg" alt="Kandratsenkava Yadviga" class="main-list__item__photo-1">
+                    <img src="img/number/005.svg" alt="005" class="main-list__item__number">
+                </figure>
+                <h2 class="main-list__item--h2">アニメに惹かれて東欧から日本へ。<br>寮友と過ごす日々で、世界は広がっていく。</h2>
+                <p class="main-list__item--p1">経営学部経営学科</p>
+                <p class="main-list__item--p2">Kandratsenkava Yadviga</p>
+              </a>
+            </li>
+            <li class="main-list__item fadein" id="anchor_urban_sciences">
+              <a href="">
+                <figure class="main-list__item__photo">
+                    <img src="img/people/economics/morihara/top.jpg" alt="森原佳大" class="main-list__item__photo-1">
+                    <img src="img/number/006.svg" alt="006" class="main-list__item__number"> 
+                </figure>
+                <h2 class="main-list__item--h2">日常生活のサポートから思い出づくりまで、<br>「105」が目指す留学生支援のかたち</h2>
+                <p class="main-list__item--p1">経営学部経済学科</p>
+                <p class="main-list__item--p2">森原佳大</p>
+              </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p class="footer-logo">
+            <img src="img/logo.svg" alt="YNU横浜国立大学">
+        </p>
+    </footer>
+
+
+
+
+    
+
+
+
+
+</div><!---/motherwrap-->
+
+
+
+
+
+</body>
+</html>
+
