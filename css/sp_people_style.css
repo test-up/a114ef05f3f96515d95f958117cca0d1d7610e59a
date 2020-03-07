@@ -204,7 +204,18 @@ html {
 .pc {
   display: none;
 }
-
+.close-button{
+  display:block;
+  width:6rem;
+  height:6rem;
+  position: absolute;
+  top:0;
+  left:0;
+  background: url(../img/closeBtn.svg) no-repeat;
+  background-size: cover;
+  text-indent: -10rem;
+  overflow: hidden;
+}
 
 header{
   width: 52rem;
@@ -294,10 +305,10 @@ header{
   width:52rem;
 }
 .people-interview h3{
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 2.5rem;
+  line-height: 3.7rem;
   font-weight: 900;
-  margin:2rem 0 1.6rem 0;
+  margin:2.6rem 0 1.8rem 0;
 }
 .pink .people-interview h3{
   color:#E76180;
@@ -306,16 +317,16 @@ header{
   color:#3FA1C6;
 }
 .people-interview h4{
-  font-size: 2rem;
+  font-size: 2.1rem;
   line-height: 1.3;
   font-weight: 900;
-  margin:1.8rem 0;
+  margin:2.2rem 0;
 }
 .people-interview p{
-  font-size: 1.6rem;
-  line-height: 3.2rem;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
   font-weight: 500;
-  margin:18px 0;
+  margin:1.8rem 0;
   text-align:justify;
 }
 .people-interview-date{
@@ -348,10 +359,22 @@ header{
   justify-content: space-between;
   padding-top: 3rem;
 }
-.mymemory-photos img{
+.mymemory-photo{
   width:15.8rem;
   height:10.6rem;
   margin-bottom: 1rem;
+  position: relative;
+}
+.mymemory-photo-item{
+  width:100%;
+  height:100%;
+}
+.mymemory-photo-number{
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  top:0;
+  left:0;
 }
 .mymemory-p1{
   margin-top: 1rem;
