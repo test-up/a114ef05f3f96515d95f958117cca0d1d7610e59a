@@ -498,11 +498,12 @@ header{
 .footer-nav-listitem-p3{
   font-size:13px;
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.2;
   margin-top: 10px;
   font-feature-settings: "palt";
   text-align: justify;
 }
+
 footer{
   min-height: 250px;
   padding-top:100px;
