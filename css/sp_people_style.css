@@ -410,6 +410,13 @@ header{
   text-align: justify;
 }
 
+.footer-nav{
+  margin: 4rem auto 0 auto;
+  width:52rem;
+  border:solid 1px red
+}
+
+
 footer{
 min-height: 16.6rem;
 padding-top:7rem;
