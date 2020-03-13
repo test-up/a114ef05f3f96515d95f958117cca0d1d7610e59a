@@ -3,9 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
-<title>"001 Kandratsenkava Yadvigaさん インタビュー　挑戦する横国の学生たち - 横浜国立大学</title>
-<meta name="description" content="さまざまな国籍の学生が集う「常盤台インターナショナルレジデンス」で暮らすヤドヴィガさん。アニメ好きが高じて、東欧はベラルーシよりやってきた留学生の彼女にとって、横浜国立大学で過ごしたこの1年間は、どのような日々だったのだろうか。">
-<meta name="keywords" content="横浜国立大学,横国,学生,インタビュー">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="canonical" href="">
 <!-- css -->
@@ -133,7 +133,31 @@ window.addEventListener("DOMContentLoaded", function() {
       <img src="img/people/footer_ynu_people.svg" alt="YNU PEOPLE">
     </h2>
     <nav class="footer-nav">
-      <?php include('footer-nav-list.php'); ?>
+        <ul class="footer-nav-list" id="footer-nav-list">
+            <li class="footer-nav-listitem" id="listitem-001">
+              <p class="footer-nav-listitem-number"><img src="img/people/number/001.svg" alt="001"></p>
+              <a href="001.html">
+                <figure class="footer-nav-listitem-photo">
+                  <img src="img/people/business-administration/yadviga/main.jpg" alt="Kandratsenkava Yadviga">
+                </figure>
+                <p class="footer-nav-listitem-p3 pink">アニメに惹かれて東欧から日本へ。寮友と過ごす日々で、世界は広がっていく。</p>
+                <p class="footer-nav-listitem-p1">経営学部経営学科</p>
+                <p class="footer-nav-listitem-p2">Kandratsenkava Yadviga</p>
+              </a>
+            </li>
+    
+            <li class="footer-nav-listitem" id="listitem-002">
+              <p class="footer-nav-listitem-number"><img src="img/people/number/002.svg" alt="002"></p>
+              <a href="002.html">
+                <figure class="footer-nav-listitem-photo">
+                  <img src="img/people/economics/morihara/main.jpg" alt="森原 佳大">
+                </figure>
+                <p class="footer-nav-listitem-p3 blue">日常生活のサポートから思い出づくりまで「105」が目指す留学生支援のかたち。</p>
+                <p class="footer-nav-listitem-p1">経済学部経済学科</p>
+                <p class="footer-nav-listitem-p2">森原 佳大</p>
+              </a>
+            </li>
+        </ul>
     </nav>
 
     <script>
@@ -143,12 +167,18 @@ window.addEventListener("DOMContentLoaded", function() {
       //console.log('listWidth'+listWidth);
       $('#footer-nav-list').width(listWidth);
 
-      $('#listitem-005 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。
+      $('#listitem-001 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。
 
       $('a.current').click(function(){
       return false;
       })
     </script>
+
+
+
+
+
+
 
     <footer>
         <p class="footer-logo">

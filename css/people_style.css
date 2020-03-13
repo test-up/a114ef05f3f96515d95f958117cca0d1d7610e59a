@@ -422,10 +422,17 @@ header{
 }
 .footer-nav{
   width:100%;
-  overflow: auto;
+  overflow-x: scroll;
+  -ms-overflow-style: none;    /* IE, Edge 対応 */
+  scrollbar-width: none;       /* Firefox 対応 */
 }
+.footer-nav::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+  display:none;
+}
+
 .footer-nav a{
   text-decoration: none;
+  display: block;
 }
 .footer-nav a .footer-nav-listitem-p1{
   color:#000;
@@ -446,6 +453,8 @@ header{
   display:flex;
   justify-content: flex-start;
   position: relative;
+  margin: 0 auto;
+  padding:15px 0;
 }
 .footer-nav-listitem{
   width:120px;
@@ -460,7 +469,7 @@ header{
   width:28px;
   height:auto;
   position: absolute;
-  top:-6px;
+  top:-8px;
   right: 0;
   opacity: 0.6;
 }
@@ -468,9 +477,7 @@ header{
   width:100%;
   height:auto;
 }
-.footer-nav-listitem:last-of-type{
-  margin-left: 0;
-}
+
 .footer-nav-listitem-photo{
   width:120px;
   height:120px;

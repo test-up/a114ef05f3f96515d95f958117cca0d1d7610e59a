@@ -3,9 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
-<title></title>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<title>#002 森原 佳大さん インタビュー　挑戦する横国の学生たち - 横浜国立大学</title>
+<meta name="description" content="留学生をサポートする学生団体「105」の室長、森原さんは「勉強も遊びも毎日全力」がモットー。あまり考え込まずに、即決断・即行動で物事に取り組むという彼は現在、留学生と一般学生との交流の場づくりに力を入れている。その活動の魅力を聞いてみた。">
+<meta name="keywords" content="横浜国立大学,横国,学生,インタビュー">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="canonical" href="">
 <!-- css -->
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", function() {
           <img src="img/people/ynu_people.svg" alt="YNU PEOPLE">
         </p>
         <p class="header-people-number">
-          <img src="img/people/number/001.svg" alt="001">
+          <img src="img/people/number/002.svg" alt="002">
         </p>
         <h1 class="header-h1">日常生活のサポートから思い出づくりまで、<br>「105」が目指す留学生支援のかたち。</h1>
         <p class="header-p2">
@@ -130,13 +130,15 @@ window.addEventListener("DOMContentLoaded", function() {
     <h2 class="footer-nav-h2-1">
       <img src="img/people/footer_ynu_people.svg" alt="YNU PEOPLE">
     </h2>
-    <nav class="footer-nav" id="footer-nav">
+    <nav class="footer-nav">
       <?php include('footer-nav-list.php'); ?>
     </nav>
 
-
     <script>
       var len = $('#footer-nav-list li').length;
+      //console.log(len);
+      var listWidth = (len * 140) + 40 ;
+      //console.log('listWidth'+listWidth);
       $('#footer-nav-list').width(listWidth);
 
       $('#listitem-005 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。
