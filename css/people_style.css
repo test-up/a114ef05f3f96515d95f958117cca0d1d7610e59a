@@ -237,9 +237,19 @@ header{
   width: 100%;
   height:auto;
 }
-.header-p1{
-    width:350px;
-    margin: 0 auto;
+.header-p01{
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 175px;
+}
+.header-p02{
+  width:220px;
+  margin: 30px auto 0 auto;
+}
+.header-p02 img{
+  width:100%;
+  height: auto;
 }
 .header-people-number{
     height:28px;

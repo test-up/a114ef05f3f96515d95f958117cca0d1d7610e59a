@@ -233,7 +233,7 @@ header{
   margin-top: 175px;
 }
 .header-p1{
-  width:170px;
+  width:220px;
   margin: 30px auto 0 auto;
 }
 .header-p1 img{
@@ -242,7 +242,7 @@ header{
 }
 .header-p2{
   margin-top: 34px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
   font-weight: 500;
   text-align: center;
@@ -323,6 +323,11 @@ header{
   font-weight: 900;
   text-align: center;
   text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-feature-settings: "palt";
 }
 .main-list__item--p1{
   margin-top: 20px;

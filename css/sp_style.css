@@ -226,13 +226,13 @@ header{
   height:auto;
 }
 .header-h1{
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 900;
   text-align: center;
   margin-top: 17.5rem;
 }
 .header-p1{
-  width:17.1rem;
+  width:24rem;
   margin: 2.8rem auto 0 auto;
 }
 .header-p1 img{
@@ -241,8 +241,8 @@ header{
 }
 .header-p2{
   margin-top: 2.8rem;
-  font-size: 1.5rem;
-  line-height: 2.8rem;
+  font-size: 2.25rem;
+  line-height: 3.6rem;
   font-weight: 500;
   text-align: left;
 }
@@ -313,16 +313,17 @@ header{
   z-index: 10;
 }
 .main-list__item--h2{
-  margin-top: 1.8rem;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  margin-top: 1.6rem;
+  font-size: 1.9rem;
+  line-height: 3rem;
   font-weight: 900;
   text-align: center;
   text-decoration: underline;
+  font-feature-settings: "palt";
 }
 .main-list__item--p1{
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight: 500;
   text-align: center;
@@ -335,8 +336,8 @@ header{
   left:0;
 }
 .main-list__item--p2{
-  margin-top: 0.2rem;
-  font-size: 1.4rem;
+  margin-top: 0.6rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   font-weight: 900;
   text-align: center;
