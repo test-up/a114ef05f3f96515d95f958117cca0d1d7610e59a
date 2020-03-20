@@ -107,19 +107,19 @@ window.addEventListener("DOMContentLoaded", function() {
       </h2>
       <figure class="mymemory-photos">
         <figure class="mymemory-photo">
-          <img src="img/photo-number-blue-1.svg" alt="1" class="mymemory-photo-number">
+          <img src="img/people/photo-number-blue-1.svg" alt="1" class="mymemory-photo-number">
           <img src="img/people/economics/morihara/1.jpg" alt="" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-blue-2.svg" alt="2" class="mymemory-photo-number">
+          <img src="img/people/photo-number-blue-2.svg" alt="2" class="mymemory-photo-number">
           <img src="img/people/economics/morihara/2.jpg" alt="105ミーティング" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-blue-3.svg" alt="3" class="mymemory-photo-number">
+          <img src="img/people/photo-number-blue-3.svg" alt="3" class="mymemory-photo-number">
           <img src="img/people/economics/morihara/3.jpg" alt="105イベント" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-blue-4.svg" alt="4" class="mymemory-photo-number">
+          <img src="img/people/photo-number-blue-4.svg" alt="4" class="mymemory-photo-number">
           <img src="img/people/economics/morihara/4.jpg" alt="アメリカ時代高校卒業式" class="mymemory-photo-item">
         </figure>
       </figure>
@@ -131,7 +131,7 @@ window.addEventListener("DOMContentLoaded", function() {
     </section>
 
     <h2 class="footer-nav-h2-1">
-      <img src="img/people/footer_ynu_people.svg" alt="YNU PEOPLE">
+      <img src="img/people/footer_venturespirit.svg" alt="VENTURE SPIRIT">
     </h2>
     <nav class="footer-nav">
       <?php include('footer-nav-list.php'); ?>

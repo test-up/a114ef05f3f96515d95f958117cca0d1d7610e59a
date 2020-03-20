@@ -109,19 +109,19 @@ window.addEventListener("DOMContentLoaded", function() {
       </h2>
       <figure class="mymemory-photos">
         <figure class="mymemory-photo">
-          <img src="img/photo-number-pink-1.svg" alt="1" class="mymemory-photo-number">
+          <img src="img/people/photo-number-pink-1.svg" alt="1" class="mymemory-photo-number">
           <img src="img/people/business-administration/yadviga/1.jpg" alt="パーティー" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-pink-2.svg" alt="2" class="mymemory-photo-number">
+          <img src="img/people/photo-number-pink-2.svg" alt="2" class="mymemory-photo-number">
           <img src="img/people/business-administration/yadviga/2.jpg" alt="空手（夏合宿）" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-pink-3.svg" alt="3" class="mymemory-photo-number">
+          <img src="img/people/photo-number-pink-3.svg" alt="3" class="mymemory-photo-number">
           <img src="img/people/business-administration/yadviga/3.jpg" alt="本" class="mymemory-photo-item">
         </figure>
         <figure class="mymemory-photo">
-          <img src="img/photo-number-pink-4.svg" alt="4" class="mymemory-photo-number">
+          <img src="img/people/photo-number-pink-4.svg" alt="4" class="mymemory-photo-number">
           <img src="img/people/business-administration/yadviga/4.jpg" alt="姫路旅行" class="mymemory-photo-item">
         </figure>
       </figure>
@@ -133,7 +133,7 @@ window.addEventListener("DOMContentLoaded", function() {
     </section>
     
     <h2 class="footer-nav-h2-1">
-      <img src="img/people/footer_ynu_people.svg" alt="YNU PEOPLE">
+      <img src="img/people/footer_venturespirit.svg" alt="VENTURE SPIRIT">
     </h2>
     <nav class="footer-nav">
       <?php include('footer-nav-list.php'); ?>
@@ -146,7 +146,7 @@ window.addEventListener("DOMContentLoaded", function() {
       //console.log('listWidth'+listWidth);
       $('#footer-nav-list').width(listWidth);
 
-      $('#listitem-005 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。
+      $('#listitem-005 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。001のページであれば　listitem-001 
 
       $('a.current').click(function(){
       return false;
