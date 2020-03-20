@@ -146,7 +146,7 @@ window.addEventListener("DOMContentLoaded", function() {
       //console.log('listWidth'+listWidth);
       $('#footer-nav-list').width(listWidth);
 
-      $('#listitem-005 a').addClass("current"); //listitem-005の部分にカレントページのIDを入れてください。001のページであれば　listitem-001 
+      $('#listitem-001').children('a').addClass("current"); //listitem-001の部分にこのページのIDを入れてください。001のページであれば　listitem-001 
 
       $('a.current').click(function(){
       return false;

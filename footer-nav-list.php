@@ -1,7 +1,7 @@
 <ul class="footer-nav-list" id="footer-nav-list">
         <li class="footer-nav-listitem" id="listitem-001">
           <p class="footer-nav-listitem-number"><img src="img/people/number/001.svg" alt="001"></p>
-          <a href="001.html">
+          <a href="001.php">
             <figure class="footer-nav-listitem-photo">
               <img src="img/people/business-administration/yadviga/main.jpg" alt="Kandratsenkava Yadviga">
             </figure>
@@ -13,7 +13,7 @@
 
         <li class="footer-nav-listitem" id="listitem-002">
           <p class="footer-nav-listitem-number"><img src="img/people/number/002.svg" alt="002"></p>
-          <a href="002.html">
+          <a href="002.php">
             <figure class="footer-nav-listitem-photo">
               <img src="img/people/economics/morihara/main.jpg" alt="森原 佳大">
             </figure>
